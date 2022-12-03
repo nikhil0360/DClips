@@ -9,8 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@apollo/client": "^3.7.1",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "autoprefixer": "^10.4.13",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
+    "graphql": "^16.6.0",
+    "hardhat": "^2.12.3",
+    "ipfs-http-client": "^59.0.0",
+    "moment": "^2.29.4",
     "next": "13.0.6",
+    "plyr-react": "^5.1.2",
+    "postcss": "^8.4.19",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1",
+    "tailwindcss": "^3.2.4"
   }
 }

@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 html,
 body {
   padding: 0;
@@ -19,12 +18,54 @@ a {
   box-sizing: border-box;
 }
 
+.subscribe {
+  transition: transform 0.1s ease-out;
+}
+
+.searchInput{
+  background-color: #bb86fc;
+  color: black;
+  padding: 10px;
+  border-radius: 50px;
+  width: 400px;
+  text-align: center;
+  transition: transform 0.1s ease-out;
+}
+
+.searchInput:focus{
+  transform: scale(1.05);
+  border-color: #8e33fc;
+  border-width: 2px;
+}
+
+.uploadAdd {
+  transition: transform 0.1s ease-out;
+}
+
+.uploadAdd:hover {
+  transform: scale(1.1);
+}
+
+.subscribe:hover {
+  transform: scale(1.1);
+}
+
+.video-thumbnail {
+  transition: transform 0.2s ease-out, box-shadow 0.2s;
+  box-shadow: 5px 5px #bb86fc;
+}
+
+.video-thumbnail:hover {
+  transform: translate(-5px, -5px);
+  box-shadow: 10px 10px #bb86fc;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
   body {
     color: white;
-    background: black;
+    background: #121212;
   }
 }
